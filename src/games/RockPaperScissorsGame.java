@@ -35,31 +35,31 @@ public class RockPaperScissorsGame {
         stringresult="Scissors";
 
     }if(choice.equalsIgnoreCase("Rock")&&stringresult.equalsIgnoreCase("ROCK")){
-                System.out.println("You chose " +choice+ "and"+ "AI chose "+ stringresult + "Rock against Rock - Tie");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Rock against Rock - Tie");
                 score1++; score2++;
     }if(choice.equalsIgnoreCase("Rock")&&stringresult.equalsIgnoreCase("PAPER")){
-                System.out.println("You chose " +choice+ "and"+"AI chose"+ stringresult + "Rock against Paper . You lose. AI win. ");
+                System.out.println("You chose " +choice+ " and "+" AI chose "+ stringresult + ". Rock against Paper . You lose. AI win. ");
                 score2++;
     }if(choice.equalsIgnoreCase("Rock")&&stringresult.equalsIgnoreCase("SCISSORS")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult + "Rock against Scissors. You win. AI lose.");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Rock against Scissors. You win. AI lose.");
                 score1++;
     }if(choice.equalsIgnoreCase("Paper")&&stringresult.equalsIgnoreCase("PAPER")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult + "Paper against Paper - Tie");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Paper against Paper - Tie");
                 score1++; score2++;
     }if(choice.equalsIgnoreCase("Paper")&&stringresult.equalsIgnoreCase("ROCK")){
-                System.out.println("You chose " +choice+ "and"+ "AI chose"+ stringresult + "Paper against Rock. You win. AI lose.");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Paper against Rock. You win. AI lose.");
                 score1++;
     }if(choice.equalsIgnoreCase("Paper")&&stringresult.equalsIgnoreCase("SCISSORS")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult +"Paper against Scissors. You lose. AI win.");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult +". Paper against Scissors. You lose. AI win.");
                 score2++;
     }if(choice.equalsIgnoreCase("Scissors")&&stringresult.equalsIgnoreCase("SCISSORS")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult + "Scissors against Scissors - Tie");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Scissors against Scissors - Tie");
                 score1++; score2++;
     }if(choice.equalsIgnoreCase("Scissors")&&stringresult.equalsIgnoreCase("ROCK")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult+"Scissors against Rock. You lose. AI win.");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult+". Scissors against Rock. You lose. AI win.");
                 score2++;
     }if(choice.equalsIgnoreCase("Scissors")&&stringresult.equalsIgnoreCase("PAPER")){
-                System.out.println("You chose" +choice+ "and"+ "AI chose"+ stringresult + "Scissors against Paper. You win. AI lose.");
+                System.out.println("You chose " +choice+ " and "+ " AI chose "+ stringresult + ". Scissors against Paper. You win. AI lose.");
                 score1++;
             }
         }if(score1>score2){
