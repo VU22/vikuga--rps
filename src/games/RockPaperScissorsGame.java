@@ -3,10 +3,14 @@ package games;
 import java.util.Scanner;
 public class RockPaperScissorsGame {
 
+    //@TODO: If the fields are not declared as private they can be manipulated from outside
     Player player;
 
     Fist aIFist;
 
+    //@FIXME: declare the methods access modifier: public, private or protected
+    //An instance of the object cannot be created from outside its package if the constructor is not declared as public
+    //@TODO: ctrl/cmd+alt+L
     RockPaperScissorsGame(String playerName,int playerScore){
     player = new Player ("Viktoria",0);
     aIFist =new Fist();
@@ -15,6 +19,8 @@ public class RockPaperScissorsGame {
         RockPaperScissorsGame game = new RockPaperScissorsGame("Viktoria",0);
         game.playGame();
     }
+
+    //@TODO: declare the methods access modifier: public, private or protected
     void playGame(){
         int score1 = 0;
         int score2 = 0;
