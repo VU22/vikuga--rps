@@ -21,6 +21,7 @@ public class RockPaperScissorsGame {
     }
 
     //@TODO: declare the methods access modifier: public, private or protected
+    //@TODO: ctrl/cmd+alt+L
     void playGame(){
         int score1 = 0;
         int score2 = 0;

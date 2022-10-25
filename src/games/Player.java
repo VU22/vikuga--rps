@@ -21,7 +21,7 @@ public class Player {
 
     public void rageQuit (){System.exit(0);}
 
-
+        //@FIXME: ctrl/cmd+alt+L
         @Override
         public String toString(){
             return "Name" + this.name + "Score" + this.score;
